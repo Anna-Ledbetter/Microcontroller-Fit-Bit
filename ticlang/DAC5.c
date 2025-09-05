@@ -34,3 +34,4 @@ GPIOB->DOE31_0 |= 0x1F;
 void DAC5_Out(uint32_t data){
      GPIOB->DOUT31_0 = (GPIOB->DOUT31_0 & (~0x1F)) | data;
 }
+

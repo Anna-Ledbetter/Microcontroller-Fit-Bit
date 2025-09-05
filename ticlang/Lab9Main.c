@@ -13,7 +13,6 @@
 #include "../inc/TExaS.h"
 #include "../inc/Timer.h"
 #include "../inc/ADC1.h"
-//#include "../inc/ADC.h"
 #include "../inc/DAC5.h"
 #include "../inc/Arabic.h"
 #include "SmallFont.h"
@@ -407,3 +406,4 @@ uint32_t Random32(void){
 uint32_t Random(uint32_t n){
   return (Random32()>>16)%n;
 }
+
